@@ -1,0 +1,475 @@
+#s-11128d6e-8ec8-48b9-abc4-32827869f403 {
+  background-color: transparent;
+  min-width: 725px;
+  min-height: 214px;
+}
+#s-Button_1 {
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  width: 140px;
+  height: 29px;
+  background-color: transparent;
+  background-image: -moz-linear-gradient(top,#FFFFFF,#EBEADB);
+  background-image: -webkit-linear-gradient(top,#FFFFFF,#EBEADB);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FFFFFF), color-stop(100%,#EBEADB));
+  background-image: -o-linear-gradient(top,#FFFFFF,#EBEADB);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #C7C5B2;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #C7C5B2;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C5B2;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #C7C5B2;
+  border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  -webkit-border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 16pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16pt;
+}
+#s-Button_1 .valign {
+  vertical-align: middle;
+}
+#s-rubric_data_grid {
+  position: absolute;
+  top: 154px;
+  left: 25px;
+  width: 700px;
+}
+#s-rubric_data_grid tr.even {
+  background-color: #F0F0F0;
+}
+#s-rubric_data_grid tr.odd {
+  background-color: #FFFFFF;
+}
+#s-Row_2 {
+  background-color: transparent;
+  width: 700px;
+  height: 30px;
+}
+#s-Row_cell_1 {
+  width: 114px;
+  height: 28px;
+  background-color: #ECEBDD;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9E9E9E;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9E9E9E;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9E9E9E;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9E9E9E;
+}
+#s-Row_cell_1 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Label_1 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+}
+#s-Label_1 .valign {
+  vertical-align: middle;
+}
+#s-Row_cell_3 {
+  width: 114px;
+  height: 28px;
+  background-color: #ECEBDD;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9E9E9E;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9E9E9E;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9E9E9E;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9E9E9E;
+}
+#s-Row_cell_3 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Label_2 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+}
+#s-Label_2 .valign {
+  vertical-align: middle;
+}
+#s-Row_cell_5 {
+  width: 114px;
+  height: 28px;
+  background-color: #ECEBDD;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9E9E9E;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9E9E9E;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9E9E9E;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9E9E9E;
+}
+#s-Row_cell_5 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Label_3 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+}
+#s-Label_3 .valign {
+  vertical-align: middle;
+}
+#s-Row_cell_7 {
+  width: 114px;
+  height: 28px;
+  background-color: #ECEBDD;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9E9E9E;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9E9E9E;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9E9E9E;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9E9E9E;
+}
+#s-Row_cell_7 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Label_4 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+}
+#s-Label_4 .valign {
+  vertical-align: middle;
+}
+#s-Row_cell_9 {
+  width: 114px;
+  height: 28px;
+  background-color: #ECEBDD;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9E9E9E;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9E9E9E;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9E9E9E;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9E9E9E;
+}
+#s-Row_cell_9 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Label_5 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+}
+#s-Label_5 .valign {
+  vertical-align: middle;
+}
+#s-Row_cell_11 {
+  width: 118px;
+  height: 28px;
+  background-color: #ECEBDD;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9E9E9E;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9E9E9E;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9E9E9E;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9E9E9E;
+}
+#s-Row_cell_11 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Label_6 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+}
+#s-Label_6 .valign {
+  vertical-align: middle;
+}
+#s-Row_1 {
+  background-color: transparent;
+  width: 700px;
+  height: 30px;
+}
+#s-Row_cell_2 {
+  width: 116px;
+  height: 30px;
+  background-color: transparent;
+}
+#s-Row_cell_2 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Input_1 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  cursor: text;
+}
+#s-Input_1 .valign {
+  vertical-align: middle;
+  line-height: 10pt;
+}
+#s-Input_1 input {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+#s-Row_cell_4 {
+  width: 116px;
+  height: 30px;
+  background-color: transparent;
+}
+#s-Row_cell_4 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Input_2 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+#s-Input_2 .valign {
+  vertical-align: middle;
+  line-height: 10pt;
+}
+#s-Input_2 input {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+#s-Row_cell_6 {
+  width: 116px;
+  height: 30px;
+  background-color: transparent;
+}
+#s-Row_cell_6 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Input_3 {
+  width: 78px;
+  height: 20px;
+  background-color: transparent;
+  cursor: text;
+}
+#s-Input_3 .valign {
+  vertical-align: middle;
+  line-height: 10pt;
+}
+#s-Input_3 input {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+#s-Input_3 img {
+  top: 2px;
+}
+#s-Row_cell_8 {
+  width: 116px;
+  height: 30px;
+  background-color: transparent;
+}
+#s-Row_cell_8 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Input_4 {
+  width: 78px;
+  height: 20px;
+  background-color: transparent;
+  cursor: text;
+}
+#s-Input_4 .valign {
+  vertical-align: middle;
+  line-height: 10pt;
+}
+#s-Input_4 input {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+#s-Input_4 img {
+  top: 2px;
+}
+#s-Row_cell_10 {
+  width: 116px;
+  height: 30px;
+  background-color: transparent;
+}
+#s-Row_cell_10 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Input_5 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+#s-Input_5 .valign {
+  vertical-align: middle;
+  line-height: 10pt;
+}
+#s-Input_5 input {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+#s-Row_cell_12 {
+  width: 120px;
+  height: 30px;
+  background-color: transparent;
+}
+#s-Row_cell_12 .layout {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#s-Input_6 {
+  width: 120px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+#s-Input_6 .valign {
+  vertical-align: middle;
+  line-height: 10pt;
+}
+#s-Input_6 input {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}

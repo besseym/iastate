@@ -1,0 +1,209 @@
+/* start common */
+
+body {
+	margin: 0; padding: 1em 5em;
+	color: #000000;
+	background-color: #aaaaaa;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 1.0em;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+a, a:visited, a:hover, a:active {
+	color: #000000;
+}
+
+a:visited {
+	color: #222222;
+}
+
+a:hover {
+	color: #888888;
+}
+
+a:active {
+	color: #000000;
+}
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #bfbfbf;
+}
+
+fieldset legend {
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 1.2em;
+	border: 1px solid #bfbfbf;
+	border-bottom: #bfbfbf;
+}
+
+fieldset label {
+	font-weight: bold;
+	display: block;
+	font-size: 1.2em;
+}
+
+fieldset ul, ol {
+	margin: 0; padding:  0;
+	list-style:none;
+}
+
+fieldset li {
+	padding: 1em 0 0 0;
+}
+
+fieldset input[type='text'], fieldset input[type='password'] {
+	margin: 0; padding: 0.5em;
+	background-color: silver;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+fieldset textarea {
+	background-color: silver;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+fieldset input[type='submit']{
+	border: 1px solid #000;
+	font-size: 1em;
+	font-weight: bold;
+	width: 100%;
+	padding: 0.25em;
+	background-color: orange;
+}
+
+table {
+	margin-bottom: 2em;
+	border-collapse: collapse;
+	border: 1px solid #222;
+}
+
+table tr {
+	border: 1px solid #222;
+}
+
+table tr:nth-child(even) {
+	background-color: #bbb;
+}
+
+table td, table th {
+	padding: 0.25em;
+	border-left: 1px solid #222;
+}
+
+table td {
+	white-space:nowrap;
+}
+
+/* end common */
+
+/* start common custom */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+/* end common custom */
+
+/* start navigation */
+
+#nav:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#nav a, #nav a:visited, #nav a:hover, #nav a:active {
+	color: #000000;
+}
+
+#nav a:hover {
+	background-color: #ddd;
+}
+
+#nav ul {
+	margin: 0; padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	padding: 1em 2em;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	text-decoration: none;
+	background-color: #bbb;
+}
+
+#nav ul li:last-child a {
+	border-right: 1px solid gray;
+}
+
+#nav ul li.current-page a {
+	background-color: #eee;
+	position: relative; top: 0.25em;
+}
+
+#nav .logout a:hover {
+	background-color: #ee0000;
+}
+
+/* end navigation */
+
+/* start structure */
+
+#flash {
+	margin: 1em 0; padding: 1em;
+	background-color: #ffffff;
+}
+
+#flash li {
+	margin-bottom: 0.75em;
+}
+
+#main-section {
+	padding: 1em 1em 3em 1em;
+	border: 1px solid gray;
+	background-color: #eee;
+}
+
+/* end structure */

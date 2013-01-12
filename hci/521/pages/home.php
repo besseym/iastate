@@ -1,0 +1,2 @@
+<h4>Course Description</h4>
+<p>This course will delve into the human psychological side of human-computer interaction. Although the focus will be on cognitive psychology, students will learn concepts from human factors, perception, memory, decision making, and social psychology, and each topic will be discussed in the context of HCI. The goal is to provide HCI students with a broad background in the psychological principles that influence how humans interact with devices ranging from cell phones to virtual reality.</p>

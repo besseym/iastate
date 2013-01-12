@@ -1,0 +1,213 @@
+
+//colors
+//red: #cc0000
+//gold: #ffcc66
+//light tan: #ffffcc
+//dark tan: #999966
+//light blue: #0066cc;
+
+
+/* start common */
+
+body {
+	background-color: #999966;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 2.4em; line-height: 1.2em;
+}
+
+h2 {
+	font-size: 1.4em; line-height: 1.2em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 2.1em; line-height: 1.5em;
+	margin-bottom: 0.75em;
+}
+
+h4 {
+	color: #ffffff;
+	background-color: #000000;
+	padding-left: 1em;
+	margin-bottom: 0.75em;
+}
+
+h5 {
+	font-size: 1.8em; font-weight: bold;
+}
+
+h1, h2 {
+	text-shadow: 2px 2px #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Times New Roman", Georgia, serif;
+}
+
+a {
+	color: #cc0000;
+}
+
+a:hover {
+	color: #0066cc;
+}
+
+a:active {
+	color: #cc0000;
+}
+
+a:visited {
+	color: #cc0000;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.column {
+	float: left;
+}
+
+/* end common */
+
+/* start structure */
+
+div#foundation {
+	min-width: 800px;
+}
+
+header#main-header {
+	color: #ffffff;
+	padding: 1.0em 5% 0 5%;
+	background-color: #cc0000;
+	border-bottom: 5px solid #ffcc66;
+}
+
+nav#main-nav ul {
+	list-style: none;
+	margin: 0; margin-top: 1em; padding: 0;
+	
+}
+
+nav#main-nav ul li {
+	float: left;
+	margin: 0; padding: 0;
+	border-left: 1px solid #000;
+	width: 16%;
+}
+
+nav#main-nav .current-class a {
+}
+
+nav#main-nav a, nav#main-nav a:hover, nav#main-nav a:active, nav#main-nav a:visited {
+	color: #ffffff;
+}
+
+nav#main-nav a:hover {
+	color: #ffcc66;
+}
+
+nav#main-nav a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+section#main-section {
+	padding: 1.0em 5% 2.0em 5%;
+}
+
+footer#main-footer {
+	margin: 1.0em 5% 0 5%;
+	padding: 1.0em;
+	background-color: #999966;
+	text-align: center;
+}
+
+
+/* end structure */
+
+
+/* start class structure */
+
+
+.img-container {
+	width: 100%;
+}
+
+#class-nav-column {
+	width: 20%;
+}
+
+#class-nav-column nav ul {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+
+#class-nav-column nav ul li {
+	margin: 0; padding: 0;
+	border-bottom: 1px solid #000;
+}
+
+#class-nav-column nav ul li.current-tab {
+	background-color: #999966;
+	padding: 0.25em 0.75em;
+}
+
+#class-nav-column a {
+	display: block;
+	text-decoration: none;
+	padding: 0.25em 0.75em;
+}
+
+#class-nav-column a, #class-nav-column a:visited, #class-nav-column a:active {
+	color: #000000;
+}
+
+#class-nav-column a:hover {
+	background-color: #ffffcc;
+}
+
+#class-content {
+	border-left: 1px solid #000;
+	width: 75%;
+	padding: 0 0 0 1em;
+	min-height: 600px;
+}
+
+/* end class structure */
+
+/* start class HCI 596 structure */
+
+.persona-name {
+	font-size: 3.2em;
+	font-weight: bold;
+}
+
+img.persona-image {
+	float: right;
+	border: 2px solid #000000;
+}
+
+ul#prototype-list {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+
+ul#prototype-list li {
+	margin: 0; padding: 0;
+	margin-bottom: 3.5em;
+}
+
+/* end class HCI 596 structure */

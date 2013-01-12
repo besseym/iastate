@@ -1,0 +1,81 @@
+Part 2 Output
+
+
+Query:
+SELECT * FROM hw3_mbessey
+
+Result:
+1	Bennett	2011-09-01	hci590ii
+2	Stephen	2011-09-01	hci591
+3	Michael	2011-07-11	psych501
+4	Janet	2010-04-05	hci590ii
+5	Lori	2010-01-01	hci590ii
+6	James	2009-07-14	stat401
+7	Rachel	2011-10-21	hci590ii
+8	Thomas	2008-08-01	hci590ii
+9	Elizabeth	2011-11-01	hci590ii
+10	Nadia	2011-09-01	hci590ii
+11	Douglas	2011-09-01	hci590ii
+12	Aiden	2011-09-01	hci590ii
+13	Ella	2011-09-01	hci590ii
+14	Genevieve	2011-09-01	hci590ii
+15	William	2011-09-01	hci590ii
+16	Kate	2011-09-01	hci590ii
+17	Stefan	2010-03-09	hci574x
+18	Stephanie	2011-02-05	hci590ii
+
+==================================================
+
+Query:
+SELECT * FROM hw3_mbessey where (lower(name) = 'michael' or lower(name) = 'janet')
+
+Result:
+3	Michael	2011-07-11	psych501
+4	Janet	2010-04-05	hci590ii
+
+==================================================
+
+Query:
+SELECT * FROM hw3_mbessey where lower(name) like '%ste%'
+
+Result:
+2	Stephen	2011-09-01	hci591
+17	Stefan	2010-03-09	hci574x
+18	Stephanie	2011-02-05	hci590ii
+
+==================================================
+
+Query:
+SELECT * FROM hw3_mbessey where (lower(name) like '%ste%' or name = 'James')
+
+Result:
+2	Stephen	2011-09-01	hci591
+6	James	2009-07-14	stat401
+17	Stefan	2010-03-09	hci574x
+18	Stephanie	2011-02-05	hci590ii
+
+==================================================
+
+Query:
+SELECT * FROM hw3_mbessey order by date desc
+
+Result:
+9	Elizabeth	2011-11-01	hci590ii
+7	Rachel	2011-10-21	hci590ii
+1	Bennett	2011-09-01	hci590ii
+2	Stephen	2011-09-01	hci591
+10	Nadia	2011-09-01	hci590ii
+11	Douglas	2011-09-01	hci590ii
+12	Aiden	2011-09-01	hci590ii
+13	Ella	2011-09-01	hci590ii
+14	Genevieve	2011-09-01	hci590ii
+15	William	2011-09-01	hci590ii
+16	Kate	2011-09-01	hci590ii
+3	Michael	2011-07-11	psych501
+18	Stephanie	2011-02-05	hci590ii
+4	Janet	2010-04-05	hci590ii
+17	Stefan	2010-03-09	hci574x
+5	Lori	2010-01-01	hci590ii
+6	James	2009-07-14	stat401
+8	Thomas	2008-08-01	hci590ii
+

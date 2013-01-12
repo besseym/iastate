@@ -1,0 +1,213 @@
+
+/* start common */
+
+body {
+	margin: 0; padding: 1em 5em;
+	color: #000000;
+	background-color: #bbb;
+	font-family: 'Quattrocento Sans', Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 1.0em;
+}
+
+h1 {
+	white-space: nowrap;
+}
+
+h2 {
+}
+
+a, a:visited, a:hover, a:active {
+	color: #000000;
+}
+
+a:visited {
+	color: #222222;
+}
+
+a:hover {
+	color: #F0F8FF;
+}
+
+a:active {
+	color: #000000;
+}
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #000;
+}
+
+fieldset legend {
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 1.2em;
+	border: 1px solid #000;
+	border-bottom: none;
+}
+
+fieldset label {
+	font-weight: bold;
+	display: block;
+	font-size: 1.2em;
+}
+
+fieldset ul, ol {
+	margin: 0; padding:  0;
+	list-style: none;
+}
+
+fieldset li {
+	padding: 1em 0 0 0;
+}
+
+fieldset input[type='text'], fieldset input[type='password'] {
+	margin: 0; padding: 0.5em;
+	background-color: #aaa;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #000;
+}
+
+fieldset textarea {
+	background-color: silver;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+fieldset input[type='submit']{
+	border: 1px solid #000;
+	font-size: 1em;
+	font-weight: bold;
+	width: 100%;
+	padding: 0.25em;
+	background-color: #F5F5F5;
+}
+
+table {
+	width: 100%;
+	margin: 2em 0;
+	border-collapse: collapse;
+	border: 1px solid #222;
+}
+
+table tr {
+	border: 1px solid #222;
+}
+
+table tr:nth-child(even) {
+	background-color: #aaa;
+}
+
+table td, table th {
+	padding: 0.5em;
+}
+
+table th {
+	color: #fff;
+	background-color: #000;
+}
+
+table td {
+	white-space:nowrap;
+}
+
+table td {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+/* end common */
+
+
+/* start navigation */
+
+#nav {
+	float: right;
+	position: relative;
+}
+
+#nav a {
+	text-align: center;
+}
+
+#nav a, #nav a:visited, #nav a:hover, #nav a:active {
+	color: #000; font-weight: bold;
+	background-color: #F5F5F5;
+	width: 15em;
+}
+
+#nav a:hover {
+	background-color: #FFF8DC;
+}
+
+#nav ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	display: inline;
+}
+
+#nav ul li a {
+	display: block;
+	padding: 0.5em 2em;
+	border: 1px solid #000;
+	text-decoration: none;
+	background-color: #bbb;
+}
+
+#nav ul li:last-child a {
+	border-right: 1px solid gray;
+}
+
+/* end navigation */
+
+/* start structure */
+
+#flash {
+	margin: 1em 0; padding: 1em;
+	background-color: #ffffff;
+	border: 1px solid #000;
+}
+
+#flash li {
+	margin-bottom: 0.75em;
+}
+
+/* end structure */
+
+/* start jQuery lightBox plugin - Gallery style */
+
+#gallery-container {
+	margin: 5em auto;
+	width: 80%;
+	min-width: 40em;
+}
+
+#gallery {
+	padding: 1em;
+	text-align: center;
+	background-color: #444;
+	border: 1em solid #000;
+}
+#gallery ul { 
+	margin: 0; padding: 0;
+	list-style: none; 
+}
+#gallery ul li { display: inline; }
+#gallery ul img {
+	border: 5px solid #3e3e3e;
+	border-width: 5px 5px 20px;
+}
+#gallery ul a:hover img {
+	border: 5px solid #fff;
+	border-width: 5px 5px 20px;
+	color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
+
+/* end jQuery lightBox plugin - Gallery style */

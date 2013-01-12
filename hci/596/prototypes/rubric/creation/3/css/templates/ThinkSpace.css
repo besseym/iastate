@@ -1,0 +1,35 @@
+#t-78a9aabe-fa6f-4fdc-b41f-97d0f4150c56 {
+  background-color: #FFFFFF;
+  min-width: 775px;
+  min-height: 78px;
+}
+#t-title {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  width: 198px;
+  height: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000000;
+  text-align: left;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 26pt;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 26pt;
+}
+#t-title .valign {
+  vertical-align: middle;
+}
+#t-Line_1 {
+  position: absolute;
+  top: 75px;
+  left: 25px;
+  width: 750px;
+  height: 0px;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #000000;
+}

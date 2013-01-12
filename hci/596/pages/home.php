@@ -1,0 +1,2 @@
+<h4>Course Description</h4>
+<p>Usability evaluation with emphasis on requirements gathering, rapid prototyping, evaluation, and communicating results through report writing along with emerging practices. This course is a complement to the pre-requisite course HCI 521 and will be of interest to those conducting usability evaluation in a corporate environment.</p>

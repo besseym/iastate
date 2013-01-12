@@ -1,0 +1,121 @@
+/*** start generic styles ***/
+* { border: 0px; padding: 0px; margin: 0px; outline: none; zoom: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+html, body { background-color: #ffffff; width: 100%; height: 100%; overflow: hidden; }
+table { border-spacing: 0px; /*CHROME-BUG: border-collapse: collapse;*/ }
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+.hidden { display: none; }
+.hover { background-color: #b2b4bf; }
+.clear { clear:both; }
+
+#simulation { position: relative; overflow: auto; height: 100%; }
+
+.template, .screen { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+
+/*** z-index ***/
+.label, .image, .richtext, .table, .cell, .rectangle, .dynamicpanel, .panel, .text, .password, .textarea, .checkbox, .radiobutton, .date, .time, .file, .selectionlist, .dropdown, .radiobuttonlist, .checkboxlist, .tree, .treenode, .menu, .menunode, .datagrid, .headerrow, .datarow, .datacell, .summary, .index, .masterinstance, .texttable, .textcell, .line, .multiselectionlist, .button, .imagemap, .html, .url, .document, .flash, .website { z-index: 2; } 
+
+/*** image, imagemap ***/
+.image, .imagemap { -moz-outline-style: none; }
+
+/*** menu ***/
+.menu { overflow: hidden; cursor: default;}
+.menu .menunode { overflow: hidden; }
+.menu .menunode span { position: relative; top: -2px; }  /* fix "display: table-cells" internal padding */
+.menu.horizontal .menunode { display: table-cell; height: inherit; }
+.submenu { display: none; position: absolute; top: 0; left: 100%; z-index: 2; }
+.menunodeicon { padding-right: 5px; vertical-align: inherit; }
+.menunode { position: relative; white-space: nowrap; padding: 0 5px; cursor: default; }
+.menunode span { cursor: inherit; }
+.submenu .menunode.has-submenu > span { margin-right: 10px; }
+.menunode .submenuicon { position: absolute; right: 2px; top: 40%; width: 9px; height: 7px; background: transparent url("../images/common/arrow-submenu.png") no-repeat 0 0 scroll; }
+
+/*** html widgets ***/
+.html, .document, .url, .website, .flash { overflow: hidden; z-index: 3; } /* prototyper's "swt browser widget" always on top */
+
+/*** label, button ***/
+.label, .button { overflow: hidden; white-space: nowrap; }
+
+/*** table ***/
+.table { overflow: hidden; }
+
+/*** cellcontainer ***/
+.cellcontainer { overflow: hidden; }
+
+/*** dropdown ***/
+.dropdown { position: relative; overflow: hidden; white-space: nowrap; }
+.dropdown input.value { position: relative; top: -2px; width: 94%; background-color: transparent; }
+.dropdown .dropdownicon { position: absolute; right: 1px; top: 40%; height: 8px; width: 8px; cursor: pointer; }
+.dropdown-options { display: none; position: absolute; background-color: #ffffff; border: 1px #ababab solid; min-width: 230px; min-height: 20px; height: auto; max-height: 110px; overflow-y: auto; z-index: 3; cursor: default; }
+
+/*** input components ***/
+.text, .password { overflow: hidden; } /*.date, .time, .file would hide icon */
+.date, .time, .file { position: relative; } /* offset parent for icon */
+.text input, .password input, .date input, .time input, .file input { vertical-align: inherit; width: inherit; background-color: transparent; cursor: inherit; z-index: 3; } /* enforce z-index in date/time picker, fix "display: table-cells" internal padding */
+.dateicon, .timeicon { position: absolute; right: -22px; cursor: pointer; }
+.file .fileicon, .file .fileinput { position: absolute; right: -71px; vertical-align: middle; }
+.file .fileinput { z-index: 2; cursor: pointer; border: none; width: 66px; height: 19px; opacity: 0; -ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0); filter: alpha(opacity=0); }
+.radiobutton { background-color: transparent; border: none; vertical-align: top; font-size: 10px; height: 13px; width: 13px; }
+.textarea { overflow: auto; white-space: normal; }
+
+ /* date/timepicker - overwrite jquery.ui */
+.ui-datepicker.ui-widget { font-size: 0.7em; }
+.ui-datepicker-trigger { display: none; }
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd{ margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+/*** select components ***/
+.selectionlist, .multiselectionlist { white-space: nowrap; overflow: auto; }
+.option { cursor: default; }
+.selected { background-color: #00007f; color: #ffffff; cursor: inherit; }
+.checkboxlist, .radiobuttonlist { overflow: auto; white-space: nowrap; }
+.checkboxlist span, .radiobuttonlist span { vertical-align: middle; margin-left: 5px; }
+.checkboxlist input, .radiobuttonlist input { vertical-align: middle; }
+
+/*** panel ***/
+.panel { position: relative; }
+
+/*** group ***/
+.group { position: relative; }
+
+/*** datagrid ***/
+.datagrid { overflow: hidden; }
+.datarow input { background-color: transparent; border: none; }
+.datacell { overflow: hidden; }
+
+.index span { margin: 0px 3px 0px 3px; cursor: default; }
+.index span.current { font-weight: bold; }
+
+/*** richtext, textcell ***/
+.richtext .content, .textcell .content { height: inherit; width: inherit; overflow: hidden; }
+
+/*** tree ***/
+.tree { list-style: none; overflow: auto; }
+.tree ul { list-style: none; }
+.tree li { list-style: none; }
+.tree table { width: 100%; }
+.tree li.closed ul { display:none; }
+.tree li.open .nodecontent img.open { display: inline; }
+.tree li.closed .nodecontent img.open { display: none; } 
+.tree li.open .nodecontent img.closed, .tree li.leaf .nodecontent img.closed { display: none; }
+.tree li.closed .nodecontent img.closed { display: inline; }
+.tree li.last.leaf .treeicon { display: none; }
+.tree li.leaf .treeicon { background-image: none !important; }
+.tree.withlines li { background-image: url("../images/common/treeline.gif"); background-repeat: repeat-y; }
+.tree.withlines li.last { background-image: url("../images/common/lastnode.gif"); background-repeat: no-repeat; }
+.tree.withlines li.last.leaf .treeicon { display: table-cell; background-image: none !important; background-repeat: no-repeat; }
+.tree.withlines li.leaf .treeicon { background-image: url("../images/common/leafnode.gif") !important; background-repeat: no-repeat; }
+
+/*** alignment ***/
+.valign { display: table-cell; height: inherit; width: inherit; vertical-align: inherit; text-align: inherit; }
+.layout { height: inherit; width: inherit; position: relative; overflow: hidden; }
+table.layout { overflow: auto; } /* chrome bug: allow scrollbars */
+td.layout > * { vertical-align: inherit; }
+td.layout.horizontal { white-space: nowrap; }
+td.layout.horizontal > * { display: inline-block; }
+td.layout.vertical > * { display: block; }

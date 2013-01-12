@@ -1,0 +1,47 @@
+#s-Table_1 {
+  border-collapse: separate;
+}
+#s-Cell_1 > .valign {
+  vertical-align: middle;
+}
+#s-Cell_3 > .valign {
+  vertical-align: middle;
+}
+#s-Cell_2 > .valign {
+  vertical-align: middle;
+}
+#s-Cell_4 > .valign {
+  vertical-align: middle;
+}
+#s-Table_2 {
+  border-collapse: separate;
+}
+#s-Cell_5 > .valign {
+  vertical-align: middle;
+}
+#s-Cell_7 > .valign {
+  vertical-align: middle;
+}
+#s-Cell_6 > .valign {
+  vertical-align: middle;
+}
+#s-Cell_8 > .valign {
+  vertical-align: middle;
+}
+#s-btn_create_rubric_1 {
+  background-image: url('../../images/[Generated]%201.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: scroll;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  background-color: transparent;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  width: 163px;
+  height: 28px;
+}

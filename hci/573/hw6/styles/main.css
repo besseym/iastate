@@ -1,0 +1,115 @@
+body {
+	margin: 0px; padding: 0px;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	background: #eee url(<?php echo BASE; ?>/images/background.png);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid silver;
+}
+
+table th {
+	text-align: left;
+	border-bottom: 1px solid silver;
+}
+
+table th, td {
+	padding: 5px 25px;
+}
+
+table tbody th {
+	border: none;
+}
+
+fieldset {
+	padding: 1em;
+	border: 1px solid black;
+}
+
+fieldset legend {
+	font-weight: bold;
+	border: 1px solid black;
+	border-bottom: 0;
+	padding: 10px;
+}
+
+fieldset ol {
+	padding: 0; margin: 0;
+	list-style: none;
+}
+
+fieldset ol li {
+	margin-bottom: 1em;
+}
+
+fieldset label {
+	font-weight: bold;
+}
+
+fieldset input, select, textarea {
+	width: 100%;
+	clear: both;
+}
+
+/* start common */
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+/* end common */
+
+/* start structure */
+
+#flash {
+	font-weight: bold;
+	background-color: #eee;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+#main {
+	width: 85%;
+	margin: 50px auto;
+}
+
+#main-top {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#main #main_content {
+	float: left;
+	width: 40%;
+	min-width: 250px;
+}
+
+#main #summary {
+	float: right;
+	width: 59%;
+	text-align: right;
+	border: 1px solid silver;
+}
+
+#transactions {
+	
+}
+
+/*end structure */
+
+
+
