@@ -1,7 +1,12 @@
 <?php
 
-$context_path = "/";
+//define ("SERVER", "local");
+define ("SERVER", "production");
+
 $context_path = "/iastate/";
+if(SERVER == "production"){
+	$context_path = "/";
+}
 
 define ("REAL_BASE", $_SERVER['DOCUMENT_ROOT'] . $context_path);
 define ("SITE_BASE", "http://".$_SERVER['HTTP_HOST'] . $context_path);

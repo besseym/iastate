@@ -60,7 +60,7 @@ $messageArray = array();
 
 require $head;
 
-$title = "Michael Bessey";
+$title = "Iowa State HCI Portfolio";
 
 ?>
 <!DOCTYPE HTML>
@@ -78,7 +78,7 @@ $title = "Michael Bessey";
 		<div id="foundation">
 			<header id="main-header">
 				<h1><?php echo $title ?></h1>
-				<h2>Iowa State Portfolio</h2>
+				<h2>by Michael Bessey</h2>
 				<nav id="main-nav" class="clearfix">
 					<ul>
 						<li <?php if($p == 'home'){ ?>class="current-class"<?php } ?>>

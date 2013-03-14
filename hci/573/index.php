@@ -54,6 +54,13 @@
 					<a href="<?php echo LINK_HW11 ?>" target="_blank">Homework 11</a>
 				</li>
 				
+				<?php if($c == 'project'){ ?>
+				<li class="current-tab">Final Project</li>
+				<?php } else { ?>
+				<li>
+					<a href="<?php echo LINK_PROJECT ?>">Final Project</a>
+				</li>
+				<?php } ?>
 			</ul>
 		</nav>
 	</aside>

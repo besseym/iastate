@@ -23,4 +23,11 @@ define ("LINK_HW10", SITE_BASE_HCI_573 . "hw10/HW10_mbessey_8464.php");
 
 define ("LINK_HW11", SITE_BASE_HCI_573 . "hw11/HW11_mbessey_8464.php");
 
+define ("LINK_PROJECT", LINK_HCI_573 . "&c=project");
+define ("PAGE_PROJECT", REAL_BASE_HCI_573 . "pages/project.php");
+
+define ("HCI_573_PROJECT_BASE", SITE_BASE_HCI_573 . "project/");
+define ("LINK_PROJECT_PROTOTYPE", HCI_573_PROJECT_BASE . "prototype/battle_victory.html");
+define ("LINK_PROJECT_PROPOSAL", HCI_573_PROJECT_BASE . "project/files/proposal.pdf");
+
 ?>

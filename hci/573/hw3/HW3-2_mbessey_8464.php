@@ -31,10 +31,6 @@ require HW_REAL_BASE . "/includes/db_constants.inc.php";
 require HW_REAL_BASE . "/includes/db_install.inc.php";
 require REAL_BASE . "/includes/hw/db_connect.inc.php";
 
-//require 'includes/install.php';
-//require 'includes/install_populate.php';
-//require 'includes/db.php';
-
 //queries
 $sql = "SELECT * FROM hw3";
 //$sql = "SELECT * FROM hw3_mbessey where (lower(name) = 'michael' or lower(name) = 'janet')";

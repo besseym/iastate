@@ -15,6 +15,10 @@ switch($c){
 	case 'home':
 		$class_page = PAGE_CLASS_HOME;
 		break;
+	case 'project':
+		$class_page = PAGE_PROJECT;
+		$class_page_link = LINK_PROJECT;
+		break;
 	default:
 		$page_unknown = true;
 		break;
